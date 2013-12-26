@@ -299,17 +299,17 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 
 
 	if(hge->System_Initiate()) {
-		hGame_over=hge->Texture_Load("gv.png");
-		hPRAVILA=hge->Texture_Load("do_igri1.png");
-		TEXTURE=hge->Texture_Load("3215.jpg");//fon
-		theend=hge->Texture_Load("happy_NE.jpg");//okon4anie_igri
-		snd=hge->Effect_Load("udar.mp3");//удар в стенку
-		fon_snd=hge->Effect_Load("fon_muz.mp3");//съела яблоко
-		tex[0]=hge->Texture_Load("zm1.jpg");//звено змейки
-		tex1=hge->Texture_Load("alx22.png");//
-		RAD1=hge->Texture_Load("rad.png");//радиация
-		tex_apple=hge->Texture_Load("apple.png");//яблоко;
-		hPODAROK=hge->Texture_Load("podarokk.png");//podarok
+		hGame_over=hge->Texture_Load("resource/gv.png");
+		hPRAVILA=hge->Texture_Load("resource/do_igri1.png");
+		TEXTURE=hge->Texture_Load("resource/3215.jpg");//fon
+		theend=hge->Texture_Load("resource/happy_NE.jpg");//okon4anie_igri
+		snd=hge->Effect_Load("resource/udar.mp3");//удар в стенку
+		fon_snd=hge->Effect_Load("resource/fon_muz.mp3");//съела яблоко
+		tex[0]=hge->Texture_Load("resource/zm1.jpg");//звено змейки
+		tex1=hge->Texture_Load("resource/alx22.png");//
+		RAD1=hge->Texture_Load("resource/rad.png");//радиация
+		tex_apple=hge->Texture_Load("resource/apple.png");//яблоко;
+		hPODAROK=hge->Texture_Load("resource/podarokk.png");//podarok
 
 		if(!snd || !tex)
 		{
@@ -343,8 +343,8 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 		hge->Effect_Free(snd);
 	}
 
-	// Clean up and shutdown
 	hge->System_Shutdown();
 	hge->Release();
 	return 0;
 }
+
