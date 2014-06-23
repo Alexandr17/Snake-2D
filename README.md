@@ -8,7 +8,7 @@ Snake
 
 [Руководство пользователя](https://github.com/Alexandr17/Snake-2D/wiki/%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F)
 
-[Диаграмма классов](http://hostingkartinok.com/show-image.php?id=ded9a4718ed83f16e4e95a957cae8d00)
+[Диаграмма классов](http://hostingkartinok.com/show-image.php?id=ff3ac26bc293f733cdc14e34a0bef6ad)
 
 [Диаграмма прецедентов](http://hostingkartinok.com/show-image.php?id=bce9013e2ef3075f445d34bca36dab21)
 
